@@ -1,0 +1,51 @@
+ 
+  .fade-slide {
+    opacity: 0; /* Initially invisible */
+    transform: translateY(-50px); /* Initially positioned 50px above */
+    transition: opacity 0.7s ease 0.7s, transform 0.6s ease 0.5s; /* Transition for both opacity and transform */
+  }
+  
+  .fade-slide2 {
+    opacity: 0; /* Initially invisible */
+    transform: translateY(-50px); /* Initially positioned 50px above */
+    transition: opacity 0.7s ease 0.7s, transform 0.6s ease 0.5s; /* Transition for both opacity and transform */
+  }
+  
+  .fade-slide3 {
+    opacity: 0; /* Initially invisible */
+    transform: translateY(-50px); /* Initially positioned 50px above */
+    transition: opacity 0.7s ease 0.7s, transform 0.6s ease 0.9s; /* Transition for both opacity and transform */
+  }
+  
+  .fade-slide.active {
+    opacity: 1; /* Fades in */
+    transform: translateY(0); /* Slides down */
+  }
+  
+  .fade-slide2.active {
+    opacity: 1; /* Fades in */
+    transform: translateY(0); /* Slides down */
+  }
+  
+  .fade-slide3.active {
+    opacity: 1; /* Fades in */
+    transform: translateY(0); /* Slides down */
+  }
+  
+  .activetab {
+    border-bottom: 2px solid #3e6ff4;
+  }
+  
+  .section-title{
+    font-size: 2rem;
+    color:#3e6ff4;
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
+  }
+  .home-blob{
+    fill: #3e6ff4;
+  }
+  .home-blob-img{
+    width: 500px;
+  }
